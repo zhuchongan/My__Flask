@@ -27,7 +27,7 @@ def create_app(test_config=None):
     # a simple page that says hello
     @app.route('/hello')
     def hello():
-        return '要是你就是不相信的话，我们换个别的'
+        return '好难搞QAQ'
 
 
     from . import db
